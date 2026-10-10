@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Student Result Management System</title> 
+    </head>
+    <body>
+        <h1>Student Registration and Result Management System</h1>
+        <p>Enter student details and marks to calculate results.</p>
+
+        <form id="studentForm">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="roll">Roll Number:</label>
+            <input type="text" id="roll" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="fullstack">Full Stack Development Marks:</label>
+            <input type="number" min="0" max="100" id="fullstack" required><br><br>
+
+            <label for="python">Python Programming Marks:</label>
+            <input type="number" min="0" max="100" id="python" required><br><br>
+
+            <label for="maths">Mathematical Foundations with Python Marks:</label>
+            <input type="number" min="0" max="100" id="maths" required><br><br>
+
+            <label for="dsa">Data Structures & Algorithms Marks:</label>
+            <input type="number" min="0" max="100" id="dsa" required><br><br>
+
+            <label for="ai">Artificial Intelligence Marks:</label>
+            <input type="number" min="0" max="100" id="ai" required><br><br>
+
+            <label for="sql">Database Systems(SQL & NoSQL) Marks:</label>
+            <input type="number" min="0" max="100" id="sql" required><br><br>
+
+            <button type="submit">Calculate Results</button>
+
+        </form>
+        <div id="result"></div>
+        <div id="studentList">
+            <h2>Registered Students</h2>
+            <div id="records"></div>
+        </div>
+    </body>
+</html>

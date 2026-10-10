@@ -1,0 +1,82 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+/* Make the form responsive */
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+/* Registered student cards */
+#studentList {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.student-record {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.student-record p {
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    label {
+        display: block;
+    }
+}
